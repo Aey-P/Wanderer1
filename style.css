@@ -44,14 +44,15 @@ header{
     right: -200px;
     width: 200px;
     height: 100vh;
-    background: white;
+    background-color: rgba(255, 255, 255, 0.904);
+    backdrop-filter: blur(10px);
     transition: all .5s ease;
     overflow-y: auto;
     top: 0;
 }
 
 .sidebar h1  {
-    font-size: 24px;
+    font-size: 30px;
     color: white;
     line-height: 70px;
     text-align: center;
@@ -71,7 +72,7 @@ header{
     border-bottom: 1px solid rgb(200, 199, 199);
     transition: .2s;
     font-size: 16px;
-    font-family: 'Mitr';
+    font-family: 'Coming Soon';
     font-weight: 300;
 }
 
@@ -126,13 +127,7 @@ label #cancel{
     margin-right: 250px;
 }
 
-section{
-    background: url(bg.jpeg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    transition: all .5s;
-}
+
 
 /*-------------------Header-------------------*/
 
@@ -178,4 +173,3 @@ section{
     border-radius: 40px;
     padding: 10px;
 }
-
