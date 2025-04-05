@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Chathura:wght@100;300;400;700;800&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Major+Mono+Display&family=Megrim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Nothing+You+Could+Do&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bellefair&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bellefair&family=Cinzel+Decorative:wght@400;700;900&family=Jura:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 
 *{
     margin: 0;
@@ -145,7 +146,7 @@ label #cancel{
 }
 
 .highlight{
-    background: linear-gradient(135deg,     grey, white    ,grey);
+    background: linear-gradient(135deg,grey, white, grey);
     -webkit-background-clip: text; /* Apply the background to the text */
     background-clip: text; /* Standard property for compatibility */
     color: transparent
@@ -159,13 +160,22 @@ label #cancel{
     align-items: center;
     width: 100%;
     height: 300px;
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 60px;
   }
   
 .pic img {
     width: 500px;
     height: auto;
-    
+
+}
+
+.section-divider {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(135deg, grey, white,grey); 
+    margin: 40px auto;
+    border-radius: 100px;
 }
 
 .info p{
@@ -201,16 +211,121 @@ label #cancel{
     }
 }
 
+.highlight2{
+    background: linear-gradient(135deg,#979CA1, #d8d8d8, #979CA1);
+    -webkit-background-clip: text; /* Apply the background to the text */
+    background-clip: text; /* Standard property for compatibility */
+    color: transparent
+}
+
 .TrainSta h3, .TaiBan h3, .BangKun h3 ,.Pompano h3, .TalatNoi h3, .WatTrai h3, .OverThe h3{
     margin-top: 40px;
     margin-bottom: 20px;
+    font-family: 'rajdhani', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.TrainSta p, .TaiBan p, .BangKun p, .Pompano p, .TalatNoi p, .WatTrai p, .OverThe p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
 }
 
 .TrainSta{
-    background-color: white;
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 
+.TaiBan{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.BangKun{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Pompano{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.TalatNoi{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.WatTrai{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.OverThe{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/*-------------------Footer-------------------*/
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.linkedin i {
+    font-size: 30px; /* Adjust the size */
+    width: 55%;
+    color: rgb(8,146,208);
+    margin: 15px;
+}
+
+.ig i {
+    width: 55%;
+    font-size: 30px; /* Adjust the size */
+    background: linear-gradient(135deg, #515BD4, #DD2A7B, #FEDA77); /* Adjust colors */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 15px;
+}
+
+.github i {
+    width: 55%;
+    font-size: 30px; /* Adjust the size */
+    color: black;
+    margin: 15px;
+}
+.link span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: auto;
+    padding: 5px 10px;
+}
+
+.link a, .link p {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;  /* Adjust text size */
+    color: rgb(205, 202, 202);  /* Match your design */
+    margin: 0;
+}
