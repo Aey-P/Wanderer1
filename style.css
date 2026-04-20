@@ -13,7 +13,7 @@
 
 body{
     height: 100vh;
-    background: url('bg5.jpg') no-repeat center center/cover;
+    background: url('bg6.jpg') no-repeat center center/cover;
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(5px);
 }
@@ -167,9 +167,10 @@ label #cancel{
 
 
 
-.container3{
+/*.container3{
     background-color: rgba(255, 255, 255, 0.453);
     backdrop-filter: blur(10px);
     border-radius: 40px;
     padding: 10px;
 }
+*/
