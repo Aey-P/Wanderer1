@@ -226,7 +226,7 @@ label #cancel{
     color: transparent
 }
 
-.TrainSta h3, .TaiBan h3, .BangKun h3 ,.Pompano h3, .TalatNoi h3, .WatTrai h3, .OverThe h3{
+.TrainSta h3, .TaiBan h3, .BangKun h3 ,.Pompano h3, .TalatNoi h3, .WatTrai h3, .OverThe h3, .Sausage h3, .KudiChin h3{
     margin-top: 40px;
     margin-bottom: 20px;
     font-family: 'rajdhani', sans-serif;
@@ -234,7 +234,7 @@ label #cancel{
     font-weight: bold;
 }
 
-.TrainSta p, .TaiBan p, .BangKun p, .Pompano p, .TalatNoi p, .WatTrai p, .OverThe p{
+.TrainSta p, .TaiBan p, .BangKun p, .Pompano p, .TalatNoi p, .WatTrai p, .OverThe p, .Sausage p, .KudiChin p{
     font-family: 'Rajdhani', sans-serif;
     font-size: 18px;
     font-weight: 100;
@@ -284,6 +284,17 @@ label #cancel{
     padding-right: 40px;
 }
 
+.Sausage{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.KudiChin{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 /*-------------------Footer-------------------*/
 .link {
